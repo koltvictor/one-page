@@ -30,38 +30,42 @@ export default function Home() {
           scrollTo={scrollTo}
           goToSectionRef={section2}
           showArrow={true}
+          showText={false}
         />
       </div>
       <div ref={section2}>
         <Mysection
           image={`/images/field.jpeg`}
           headline={`It's a proven fact: Investing in wellness yields major returns. Through education, training, and events, KW Wellness offers you opportunities to invest in meaningful experiences and build powerful practices that lead to greater health and well-being, and result in a shared Return on Wellness (ROW).
-
           Wellness is a universal term that has a personal meaning. An umbrella community, KW Wellness supports other communities that have a shared mission and vision of supporting well-being.`}
           scrollTo={scrollTo}
           goToSectionRef={section3}
           showArrow={true}
           showHeadline={true}
+          showText={false}
         />
       </div>
       <div ref={section3}>
         <Mysection
           image={`/images/trees.jpeg`}
-          headline={`Links page`}
+          headline={`Upcoming Events`}
           showArrow={true}
           scrollTo={scrollTo}
           goToSectionRef={section4}
           showHeadline={true}
+          showText={true}
+          pdf={`/images/CIVANA.pdf`}
         />
       </div>
       <div ref={section4}>
         <Mysection
-          image={`/images/tiles.webp`}
+          image={`/images/rocks.jpeg`}
           headline={`Contact page`}
           scrollTo={scrollTo}
           goToSectionRef={section1}
           showArrow={true}
           showHeadline={true}
+          showText={false}
         />
       </div>
     </div>
