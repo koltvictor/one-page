@@ -19,10 +19,17 @@
             position: relative;
             font-size: 2rem;
             font-weight: bold;
-            color: #fff;
+            color: #000000;
             text-align: center;
             padding: 4vh;
         }
+    }
+    .logo {
+        position: relative;
+        z-index: 2;
+        max-height: 100%;
+        max-width: 100%;
+        padding: 10vh;
     }
     .text{
         z-index: 3;

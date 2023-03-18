@@ -26,6 +26,7 @@ export default function Home() {
         <Mysection
           image={`/images/sunset.jpeg`}
           headline={`KW Wellness`}
+          showHeadline={false}
           scrollTo={scrollTo}
           goToSectionRef={section2}
           showArrow={true}
@@ -40,6 +41,7 @@ export default function Home() {
           scrollTo={scrollTo}
           goToSectionRef={section3}
           showArrow={true}
+          showHeadline={true}
         />
       </div>
       <div ref={section3}>
@@ -49,6 +51,7 @@ export default function Home() {
           showArrow={true}
           scrollTo={scrollTo}
           goToSectionRef={section4}
+          showHeadline={true}
         />
       </div>
       <div ref={section4}>
@@ -58,6 +61,7 @@ export default function Home() {
           scrollTo={scrollTo}
           goToSectionRef={section1}
           showArrow={true}
+          showHeadline={true}
         />
       </div>
     </div>

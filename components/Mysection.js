@@ -5,6 +5,7 @@ import styles from "./Mysection.module.scss";
 export default function Mysection({
   image,
   headline,
+  showHeadline,
   scrollTo,
   goToSectionRef,
   showArrow,
@@ -13,9 +14,23 @@ export default function Mysection({
   const sectionRef = useRef();
   return (
     <div className={styles.section} ref={sectionRef}>
-      <div className={styles.copy}>
+      {/* <div className={styles.copy}>
         <h2 ref={headlineRef}>{headline}</h2>
-      </div>
+      </div> */}
+      {showHeadline ? (
+        <div className={styles.copy}>
+          {" "}
+          <h2 ref={headlineRef}>{headline}</h2>{" "}
+        </div>
+      ) : (
+        <div>
+          <img
+            src={`https://i.imgur.com/4y5pgQO.png`}
+            alt={`KW Wellness Logo `}
+            className={styles.logo}
+          />
+        </div>
+      )}
       <Image src={image} layout={`fill`} />
       {showArrow && (
         <button
