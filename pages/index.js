@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Mysection from "@/components/Mysection";
 import styles from "@/styles/Home.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   const section1 = useRef();
@@ -31,6 +32,7 @@ export default function Home() {
           goToSectionRef={section2}
           showArrow={true}
           showText={false}
+          showContacts={false}
         />
       </div>
       <div ref={section2}>
@@ -43,6 +45,7 @@ export default function Home() {
           showArrow={true}
           showHeadline={true}
           showText={false}
+          showContacts={false}
         />
       </div>
       <div ref={section3}>
@@ -55,17 +58,19 @@ export default function Home() {
           showHeadline={true}
           showText={true}
           pdf={`/images/CIVANA.pdf`}
+          showContacts={false}
         />
       </div>
       <div ref={section4}>
         <Mysection
-          image={`/images/rocks.jpeg`}
-          headline={`Contact page`}
+          image={`/images/steam.jpeg`}
+          headline={`Contact Us`}
           scrollTo={scrollTo}
           goToSectionRef={section1}
           showArrow={true}
           showHeadline={true}
           showText={false}
+          showContacts={true}
         />
       </div>
     </div>

@@ -11,6 +11,7 @@ export default function Mysection({
   goToSectionRef,
   showArrow,
   pdf,
+  showContacts,
 }) {
   const headlineRef = useRef();
   const sectionRef = useRef();
@@ -28,7 +29,7 @@ export default function Mysection({
       ) : (
         <div>
           <img
-            src={`https://i.imgur.com/4y5pgQO.png`}
+            src={`https://i.imgur.com/WyHQ3Ku.png`}
             alt={`KW Wellness Logo `}
             className={styles.logo}
           />
@@ -37,6 +38,38 @@ export default function Mysection({
       {showText && (
         <div className={styles.text}>
           <a onClick={pdfClick}>CIVANA June 20-23, 2023</a>
+        </div>
+      )}
+      {showContacts && (
+        <div className={styles.contactsContainer}>
+          <div className={styles.contacts}>
+            <a href={`mailto:milo@kwwellness.community`}>
+              <img
+                src="https://i.imgur.com/e3rkSJE.png"
+                alt="Milo"
+                className={styles.aboutImg}
+              />
+            </a>
+            <p>
+              <strong>Milo Miloscia</strong>
+            </p>
+            <p>Co-Chief Experience Officer</p>
+            <p>email: milo@kwwellness.community</p>
+          </div>
+          <div className={styles.contacts}>
+            <a href={`mailto:kimberly@kwwellness.community`}>
+              <img
+                src="https://i.imgur.com/zuH0abj.png"
+                alt="Kimberly"
+                className={styles.aboutImg}
+              />
+            </a>
+            <p>
+              <strong>Kimberly Guiry</strong>
+            </p>
+            <p>Co-Chief Experience Officer</p>
+            <p>email: kimberly@kwwellness.community</p>
+          </div>
         </div>
       )}
       <Image src={image} layout={`fill`} />
