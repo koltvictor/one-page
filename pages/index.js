@@ -33,6 +33,7 @@ export default function Home() {
           showArrow={true}
           showText={false}
           showContacts={false}
+          showNav={false}
         />
       </div>
       <div ref={section2}>
@@ -46,6 +47,7 @@ export default function Home() {
           showHeadline={true}
           showText={false}
           showContacts={false}
+          showNav={true}
         />
       </div>
       <div ref={section3}>
@@ -59,6 +61,7 @@ export default function Home() {
           showText={true}
           pdf={`/images/CIVANA.pdf`}
           showContacts={false}
+          showNav={true}
         />
       </div>
       <div ref={section4}>
@@ -71,6 +74,7 @@ export default function Home() {
           showHeadline={true}
           showText={false}
           showContacts={true}
+          showNav={true}
         />
       </div>
     </div>
