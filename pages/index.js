@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <div ref={section3}>
         <Mysection
-          image={`https://i.imgur.com/IUwFmgb.png`}
+          image={`https://img4.goodfon.com/wallpaper/nbig/d/11/more-ostrov-derevia-palmy-pliazh-pesok-tropiki-zelen-nebo-ob.jpg`}
           headline={`Upcoming Events`}
           showArrow={true}
           scrollTo={scrollTo}
@@ -68,7 +68,9 @@ export default function Home() {
       </div>
       <div ref={section4}>
         <Mysection
-          image={`/images/steam.jpeg`}
+          // image={`/images/steam.jpeg`}
+          // image={`https://wallpapers.com/images/hd/serenity-7ta1a89gzc1744fk.jpg`}
+          image={`https://external-preview.redd.it/kPMNWw1DrJ_EfYppn0u4SNB8ySM3rdu896PVqRN-Fqs.jpg?auto=webp&s=8ef1e731ad0f6a73cc63bb7eb34c6b998e52a633`}
           headline={`Contact Us`}
           scrollTo={scrollTo}
           goToSectionRef={section1}

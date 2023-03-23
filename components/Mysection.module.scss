@@ -17,12 +17,13 @@
         h2 {
             z-index: 1;
             position: relative;
-            font-size: 1.3rem;
+            font-size: 2rem;
             font-weight: bold;
-            color: #000000;
+            color: black;
             text-align: center;
             padding: 4vh;
-            // background-color: rgba(167, 167, 167, .3);
+            background-color: rgba(167, 167, 167, .6);
+            margin-left: 4rem;
         }
     }
     .logo {
@@ -77,6 +78,8 @@
         background:rgba(167, 167, 167, .3);
         z-index: 2;
         padding: 3rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
     }
     .nav {
         z-index: 3;
@@ -100,7 +103,8 @@
         background:rgba(167, 167, 167, .6);
         z-index: 2;
         padding: 3rem;
-        margin-right: 8rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
     }
 }
 

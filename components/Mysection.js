@@ -2,7 +2,6 @@ import { useRef } from "react";
 import Image from "next/image";
 import styles from "./Mysection.module.scss";
 import Nav from "react-bootstrap/Nav";
-// import About from "/components/About.jsx";
 
 export default function Mysection({
   image,
