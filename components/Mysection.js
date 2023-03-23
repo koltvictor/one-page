@@ -31,7 +31,7 @@ export default function Mysection({
       ) : (
         <div>
           <img
-            src={`https://i.imgur.com/WyHQ3Ku.png`}
+            src={`/images/rasterKW.svg`}
             alt={`KW Wellness Logo `}
             className={styles.logo}
           />
