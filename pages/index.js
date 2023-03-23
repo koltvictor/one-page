@@ -41,6 +41,7 @@ export default function Home() {
         <Mysection
           image={`/images/field.jpeg`}
           showAbout={true}
+          headline={`About Us`}
           scrollTo={scrollTo}
           goToSectionRef={section3}
           showArrow={true}
@@ -52,7 +53,7 @@ export default function Home() {
       </div>
       <div ref={section3}>
         <Mysection
-          image={`/images/trees.jpeg`}
+          image={`https://i.imgur.com/IUwFmgb.png`}
           headline={`Upcoming Events`}
           showArrow={true}
           scrollTo={scrollTo}
