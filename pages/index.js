@@ -34,13 +34,13 @@ export default function Home() {
           showText={false}
           showContacts={false}
           showNav={false}
+          showAbout={false}
         />
       </div>
       <div ref={section2}>
         <Mysection
           image={`/images/field.jpeg`}
-          headline={`It's a proven fact: Investing in wellness yields major returns. Through education, training, and events, KW Wellness offers you opportunities to invest in meaningful experiences and build powerful practices that lead to greater health and well-being, and result in a shared Return on Wellness (ROW).
-          Wellness is a universal term that has a personal meaning. An umbrella community, KW Wellness supports other communities that have a shared mission and vision of supporting well-being.`}
+          showAbout={true}
           scrollTo={scrollTo}
           goToSectionRef={section3}
           showArrow={true}
@@ -62,6 +62,7 @@ export default function Home() {
           pdf={`/images/CIVANA.pdf`}
           showContacts={false}
           showNav={true}
+          showAbout={false}
         />
       </div>
       <div ref={section4}>
@@ -75,6 +76,7 @@ export default function Home() {
           showText={false}
           showContacts={true}
           showNav={true}
+          showAbout={false}
         />
       </div>
     </div>
