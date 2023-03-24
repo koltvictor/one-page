@@ -127,6 +127,42 @@ export default function Mysection({
               that provide a high Return on Investment in Wellness (ROIw) and
               support a thriving team.
             </p>
+            <h4>
+              <strong>Turning Passion into Action</strong>
+            </h4>
+            <p>
+              Studies show workplace wellness programs help employees adopt and
+              maintain healthy behaviors over time, leading to dramatic
+              improvements to common health concerns. These same programs also
+              improve engagement and productivity, resulting in a “WELLthness”
+              win for everyone. When you join KW Wellness, you’ll have access to
+              programs and resources centered around seven primary pillars of
+              wellness:
+            </p>
+            <p>
+              Physical: Nourish your body through exercise, nutrition, and
+              sleep.
+            </p>
+            <p>
+              Mental: Engage your mind in learning, problem-solving, and
+              creativity.
+            </p>
+            <p>
+              Emotional: Practice awareness and acceptance of your own and
+              others’ feepngs.
+            </p>
+            <p>Spiritual: Search for insight, meaning, and a higher purpose.</p>
+            <p>
+              Environmental: Foster positive interrelationships between
+              planetary health and human actions.
+            </p>
+            <p>
+              Occupational: Pursue the opportunities you most enjoy and find
+              satisfaction in your work.
+            </p>
+            <p>
+              Social: Create meaningful connections and build your community.
+            </p>
           </div>
         </div>
         // <About />
