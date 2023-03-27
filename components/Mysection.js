@@ -36,8 +36,9 @@ export default function Mysection({
             src={KWLogo}
             alt={`KW Wellness Logo `}
             className={styles.logo}
-            contain
+            // contain
             onClick={() => scrollTo(goToSectionRef)}
+            priority
           />
         </div>
       )}
@@ -103,21 +104,6 @@ export default function Mysection({
           </div>
         </div>
       )}
-      {/* {showNav && (
-        <div className={styles.nav}>
-          <Nav className="justify-content-end" activeKey="/home">
-            <Nav.Item>
-              <Nav.Link href="#section2">about</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="#section3">events</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="#section4">contact</Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </div>
-      )} */}
       {showAbout && (
         <div className={styles.aboutContainer} id="section2">
           <div className={styles.about}>
@@ -136,7 +122,7 @@ export default function Mysection({
         </div>
         // <About />
       )}
-      <Image src={image} layout={`fill`} />
+      <Image src={image} fill />
       {showArrow && (
         <button
           className={styles.downarrow}
