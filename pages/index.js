@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
       <div ref={section1}>
         <Mysection
-          image={`/images/sunset.jpeg`}
+          image={`https://i.pinimg.com/originals/1f/7d/95/1f7d958309126da3b051ae24fff164fa.jpg`}
           headline={`KW Wellness`}
           showHeadline={false}
           scrollTo={scrollTo}
@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <div ref={section3}>
         <Mysection
-          image={`https://img4.goodfon.com/wallpaper/nbig/d/11/more-ostrov-derevia-palmy-pliazh-pesok-tropiki-zelen-nebo-ob.jpg`}
+          image={`/images/sunset.jpeg`}
           headline={`Upcoming Events`}
           showArrow={true}
           scrollTo={scrollTo}
