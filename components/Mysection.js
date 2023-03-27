@@ -36,8 +36,8 @@ export default function Mysection({
             src={KWLogo}
             alt={`KW Wellness Logo `}
             className={styles.logo}
-            layout="fill"
-            objectFit="contain"
+            contain
+            onClick={() => scrollTo(goToSectionRef)}
           />
         </div>
       )}
@@ -92,7 +92,7 @@ export default function Mysection({
           </div>
         </div>
       )}
-      {showNav && (
+      {/* {showNav && (
         <div className={styles.nav}>
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
@@ -106,7 +106,7 @@ export default function Mysection({
             </Nav.Item>
           </Nav>
         </div>
-      )}
+      )} */}
       {showAbout && (
         <div className={styles.aboutContainer} id="section2">
           <div className={styles.about}>
