@@ -15,12 +15,14 @@
     }
     .copy {
         h2 {
-            z-index: 1;
+            z-index: 4;
             position: relative;
+            align-items: left;
             font-size: 3vh;
             font-weight: bold;
             color: black;
             text-align: center;
+            left:0;
             padding: 4vh;
             background-color: rgba(184, 14, 14, 0.6);
         }
@@ -28,7 +30,7 @@
     .logo {
         position: relative;
         z-index: 2;
-        animation: fadeIn 5s;
+        animation: fadeIn 7s;
         cursor: pointer;
     }
     @keyframes fadeIn {
@@ -72,6 +74,7 @@
     }
     .contactsContainer {
         background:rgba(167, 167, 167, .3);
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         z-index: 2;
         display: flex;
         flex-direction: column;
