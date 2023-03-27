@@ -29,8 +29,6 @@
     .logo {
         position: relative;
         z-index: 2;
-        max-height: 100%;
-        max-width: 100%;
         padding: 45vh;
         animation: fadeIn 5s;
     }
@@ -45,7 +43,7 @@
         padding: 1rem;
         text-align: center;
         color: white;
-        font-size: 1.3rem;
+        font-size: 1rem;
         cursor: pointer;
         text-decoration: underline;
     }
@@ -99,7 +97,7 @@
         padding: 1rem;
         text-align: center;
         color: white;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .aboutContainer {
         background:rgba(167, 167, 167, .6);
@@ -107,6 +105,7 @@
         padding: 3rem;
         margin-left: 4rem;
         margin-right: 4rem;
+        max-height: 50%;
     }
 }
 

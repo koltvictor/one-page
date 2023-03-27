@@ -2,6 +2,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import styles from "./Mysection.module.scss";
 import Nav from "react-bootstrap/Nav";
+import KWLogo from "@/public/images/rasterKW.svg";
 
 export default function Mysection({
   image,
@@ -30,11 +31,13 @@ export default function Mysection({
           <h2 ref={headlineRef}>{headline}</h2>
         </div>
       ) : (
-        <div>
-          <img
-            src={`/images/rasterKW.svg`}
+        <div className="relative h-96 w-full">
+          <Image
+            src={KWLogo}
             alt={`KW Wellness Logo `}
             className={styles.logo}
+            layout="fill"
+            objectFit="contain"
           />
         </div>
       )}
@@ -117,51 +120,6 @@ export default function Mysection({
               meaning. An umbrella community,
               <strong>KW Wellness</strong> supports other communities that have
               a shared mission and vision of supporting well-being.{" "}
-            </p>
-            <p>
-              As a <strong>KW Wellness</strong> community member, you'll have
-              access to learning series, retreats, social events, and a full
-              suite of resources to support your mental, emotional, and physical
-              health. As a market center leader, you’ll learn strategies for
-              integrating wellness into your retention and recruiting efforts
-              that provide a high Return on Investment in Wellness (ROIw) and
-              support a thriving team.
-            </p>
-            <h4>
-              <strong>Turning Passion into Action</strong>
-            </h4>
-            <p>
-              Studies show workplace wellness programs help employees adopt and
-              maintain healthy behaviors over time, leading to dramatic
-              improvements to common health concerns. These same programs also
-              improve engagement and productivity, resulting in a “WELLthness”
-              win for everyone. When you join KW Wellness, you’ll have access to
-              programs and resources centered around seven primary pillars of
-              wellness:
-            </p>
-            <p>
-              Physical: Nourish your body through exercise, nutrition, and
-              sleep.
-            </p>
-            <p>
-              Mental: Engage your mind in learning, problem-solving, and
-              creativity.
-            </p>
-            <p>
-              Emotional: Practice awareness and acceptance of your own and
-              others’ feepngs.
-            </p>
-            <p>Spiritual: Search for insight, meaning, and a higher purpose.</p>
-            <p>
-              Environmental: Foster positive interrelationships between
-              planetary health and human actions.
-            </p>
-            <p>
-              Occupational: Pursue the opportunities you most enjoy and find
-              satisfaction in your work.
-            </p>
-            <p>
-              Social: Create meaningful connections and build your community.
             </p>
           </div>
         </div>
