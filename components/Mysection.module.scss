@@ -71,6 +71,7 @@
         color: white;
         text-align: center;
         z-index: 2;
+        padding: 1vh;
     }
     .contactsContainer {
         background:rgba(167, 167, 167, .3);
@@ -96,7 +97,7 @@
     .about{
         z-index: 3;
         position: relative;
-        padding: 1rem;
+        padding: 1vh;
         text-align: center;
         font-size: 2vh;
     }
@@ -110,6 +111,7 @@
         font-size: 2vh;
         color: black;  
         background-color: rgba(167, 167, 167, .3);
+        padding: 2vh;
     }
 }
 
