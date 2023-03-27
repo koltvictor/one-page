@@ -42,19 +42,23 @@ export default function Mysection({
         </div>
       )}
       {showText && (
-        <div className={styles.text} id="section3">
+        <div className={styles.li} id="section3">
           <a onClick={pdfClick}>
             <li>CIVANA June 20-23, 2023</li>
           </a>
+          <br />
           <a>
             <li>Some event in August</li>
           </a>
+          <br />
           <a>
             <li>Some other event this year</li>
           </a>
+          <br />
           <a>
             <li>This other thing</li>
           </a>
+          <br />
           <a>
             <li>Look out for this thing next year!</li>
           </a>
@@ -73,9 +77,13 @@ export default function Mysection({
             <p>
               <strong>Milo Miloscia</strong>
             </p>
-            <p>Co-Chief Experience Officer</p>
+            <p>
+              Co-Chief
+              <br /> Experience Officer
+            </p>
             <p>email: milo@kwwellness.community</p>
           </div>
+          <hr />
           <div className={styles.contacts}>
             <a href={`mailto:kimberly@kwwellness.community`}>
               <img
@@ -87,7 +95,10 @@ export default function Mysection({
             <p>
               <strong>Kimberly Guiry</strong>
             </p>
-            <p>Co-Chief Experience Officer</p>
+            <p>
+              Co-Chief
+              <br /> Experience Officer
+            </p>
             <p>email: kimberly@kwwellness.community</p>
           </div>
         </div>
@@ -111,15 +122,15 @@ export default function Mysection({
         <div className={styles.aboutContainer} id="section2">
           <div className={styles.about}>
             <p>
-              It's a proven fact: Investing in wellness yields major returns.
-              Through education, training, and events,{" "}
+              <strong>It's a proven fact:</strong> Investing in wellness yields
+              major returns. Through education, training, and events,{" "}
               <strong>KW Wellness</strong> offers you opportunities to invest in
               meaningful experiences and build powerful practices that lead to
               greater health and well-being, and result in a shared Return on
               Wellness (ROW). Wellness is a universal term that has a personal
-              meaning. An umbrella community,
-              <strong>KW Wellness</strong> supports other communities that have
-              a shared mission and vision of supporting well-being.{" "}
+              meaning. An umbrella community, <strong>KW Wellness</strong>{" "}
+              supports other communities that have a shared mission and vision
+              of supporting well-being.{" "}
             </p>
           </div>
         </div>

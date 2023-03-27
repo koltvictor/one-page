@@ -41,7 +41,7 @@ export default function Home() {
         <Mysection
           image={`/images/field.jpeg`}
           showAbout={true}
-          headline={`About Us`}
+          headline={`About`}
           scrollTo={scrollTo}
           goToSectionRef={section3}
           showArrow={true}
@@ -54,7 +54,7 @@ export default function Home() {
       <div ref={section3}>
         <Mysection
           image={`/images/sunset.jpeg`}
-          headline={`Upcoming Events`}
+          headline={`Events`}
           showArrow={true}
           scrollTo={scrollTo}
           goToSectionRef={section4}
@@ -71,7 +71,7 @@ export default function Home() {
           // image={`/images/steam.jpeg`}
           // image={`https://wallpapers.com/images/hd/serenity-7ta1a89gzc1744fk.jpg`}
           image={`https://external-preview.redd.it/kPMNWw1DrJ_EfYppn0u4SNB8ySM3rdu896PVqRN-Fqs.jpg?auto=webp&s=8ef1e731ad0f6a73cc63bb7eb34c6b998e52a633`}
-          headline={`Contact Us`}
+          headline={`Contact`}
           scrollTo={scrollTo}
           goToSectionRef={section1}
           showArrow={true}
