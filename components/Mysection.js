@@ -48,19 +48,19 @@ export default function Mysection({
           </a>
           <br />
           <a>
-            <li>Some event in August</li>
+            <li>Company Event in August</li>
           </a>
           <br />
           <a>
-            <li>Some other event this year</li>
+            <li>Las Vegas End of Year Event</li>
           </a>
           <br />
           <a>
-            <li>This other thing</li>
+            <li>Costa Rica - Spring 2024</li>
           </a>
           <br />
           <a>
-            <li>Look out for this thing next year!</li>
+            <li>Portugal - Summer 2024</li>
           </a>
         </div>
       )}
