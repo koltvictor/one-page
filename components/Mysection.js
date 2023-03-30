@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import Image from "next/image";
 import styles from "./Mysection.module.scss";
-import Nav from "react-bootstrap/Nav";
 import KWLogo from "@/public/images/rasterKW.svg";
 
 export default function Mysection({

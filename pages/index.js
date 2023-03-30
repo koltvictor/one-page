@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
       <div ref={section1}>
         <Mysection
-          image={`https://i.pinimg.com/originals/1f/7d/95/1f7d958309126da3b051ae24fff164fa.jpg`}
+          image={`/images/yellowFlowers.jpeg`}
           headline={`KW Wellness`}
           showHeadline={false}
           scrollTo={scrollTo}
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       <div ref={section2}>
         <Mysection
-          image={`/images/field.jpeg`}
+          image={`/images/wellness.jpeg`}
           showAbout={true}
           headline={`About`}
           scrollTo={scrollTo}
@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <div ref={section3}>
         <Mysection
-          image={`/images/sunset.jpeg`}
+          image={`/images/stretch.jpeg`}
           headline={`Events`}
           showArrow={true}
           scrollTo={scrollTo}
@@ -70,7 +70,7 @@ export default function Home() {
         <Mysection
           // image={`/images/steam.jpeg`}
           // image={`https://wallpapers.com/images/hd/serenity-7ta1a89gzc1744fk.jpg`}
-          image={`https://external-preview.redd.it/kPMNWw1DrJ_EfYppn0u4SNB8ySM3rdu896PVqRN-Fqs.jpg?auto=webp&s=8ef1e731ad0f6a73cc63bb7eb34c6b998e52a633`}
+          image={`/images/flowers.jpeg`}
           headline={`Contact`}
           scrollTo={scrollTo}
           goToSectionRef={section1}
