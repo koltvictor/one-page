@@ -107,6 +107,11 @@
         background-color: rgba(167, 167, 167, .3);
         padding: 2vh;
         font-family: 'Poppins', Times, serif;
+        cursor: pointer;
+    }
+    .li :hover {
+        font-weight: 1000;
+        text-decoration: underline;
     }
 }
 
