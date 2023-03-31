@@ -132,7 +132,7 @@ export default function Mysection({
             >
               here
             </a>{" "}
-            to learn more about KW Wellness and join the community
+            to learn more about KW Wellness and join the community!
           </p>
         </div>
       )}
