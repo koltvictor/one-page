@@ -2,6 +2,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import styles from "./Mysection.module.scss";
 import KWLogo from "@/public/images/rasterKW.svg";
+import List from "./List";
 
 export default function Mysection({
   image,
@@ -13,16 +14,14 @@ export default function Mysection({
   showArrow,
   pdf,
   showContacts,
-  showNav,
   showAbout,
+  showLink,
 }) {
   const headlineRef = useRef();
   const sectionRef = useRef();
-
   const pdfClick = () => {
     window.open(pdf, "_blank");
   };
-
   return (
     <div className={styles.section} ref={sectionRef}>
       {showHeadline ? (
@@ -35,9 +34,10 @@ export default function Mysection({
             src={KWLogo}
             alt={`KW Wellness Logo `}
             className={styles.logo}
-            // contain
             onClick={() => scrollTo(goToSectionRef)}
-            priority
+            priority={true}
+            width="154"
+            height="82"
           />
         </div>
       )}
@@ -64,6 +64,7 @@ export default function Mysection({
           </a>
         </div>
       )}
+      {/* <List showText={showText} pdf={pdf} /> */}
       {showContacts && (
         <div className={styles.contactsContainer} id="section4">
           <div className={styles.contacts}>
@@ -119,9 +120,23 @@ export default function Mysection({
             </p>
           </div>
         </div>
-        // <About />
       )}
-      <Image src={image} fill />
+      {showLink && (
+        <div className={styles.aboutContainer}>
+          <p className={styles.about}>
+            Click{" "}
+            <a
+              href="https://communities.kw.com/community/kw-wellness/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>{" "}
+            to learn more about KW Wellness and join the community
+          </p>
+        </div>
+      )}
+      <Image src={image} priority fill alt={image} />
       {showArrow && (
         <button
           className={styles.downarrow}

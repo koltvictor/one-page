@@ -10,6 +10,7 @@ export default function Home() {
   const section2 = useRef();
   const section3 = useRef();
   const section4 = useRef();
+  const section5 = useRef();
 
   function scrollTo(section) {
     section.current.scrollIntoView({ behavior: "smooth" });
@@ -33,7 +34,6 @@ export default function Home() {
           showArrow={true}
           showText={false}
           showContacts={false}
-          showNav={false}
           showAbout={false}
         />
       </div>
@@ -48,7 +48,6 @@ export default function Home() {
           showHeadline={true}
           showText={false}
           showContacts={false}
-          showNav={true}
         />
       </div>
       <div ref={section3}>
@@ -62,24 +61,34 @@ export default function Home() {
           showText={true}
           pdf={`/images/CIVANA.pdf`}
           showContacts={false}
-          showNav={true}
           showAbout={false}
         />
       </div>
       <div ref={section4}>
         <Mysection
-          // image={`/images/steam.jpeg`}
-          // image={`https://wallpapers.com/images/hd/serenity-7ta1a89gzc1744fk.jpg`}
           image={`/images/flowers.jpeg`}
           headline={`Contact`}
+          scrollTo={scrollTo}
+          goToSectionRef={section5}
+          showArrow={true}
+          showHeadline={true}
+          showText={false}
+          showContacts={true}
+          showAbout={false}
+        />
+      </div>
+      <div ref={section5}>
+        <Mysection
+          image={`/images/rocks.jpeg`}
+          headline={`Join`}
           scrollTo={scrollTo}
           goToSectionRef={section1}
           showArrow={true}
           showHeadline={true}
           showText={false}
-          showContacts={true}
-          showNav={true}
+          showContacts={false}
           showAbout={false}
+          showLink={true}
         />
       </div>
     </div>
